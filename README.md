@@ -35,4 +35,5 @@ gender: This feature represents the gender of the patient. Gender can influence 
 # Streamlit
 
 ![image](https://github.com/IT21009686/FDM-Project/assets/87375273/43cc98e7-d6ed-4408-96ab-37220d32a6a8)
+![image](https://github.com/IT21009686/FDM-Project/assets/87375273/8f0e1e35-81ec-4c9c-9c97-2bc2735451fd)
 
