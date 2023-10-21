@@ -43,7 +43,7 @@ st.markdown('<style>body{background-color: #add8e6;}</style>', unsafe_allow_html
 
 # FUNCTION
 def user_report_stroke():
-    age = st.sidebar.slider('Age', 3, 88, 33)
+    age = st.sidebar.slider('Age', 0, 100, 33)
     bmi = st.sidebar.slider('BMI', 0.0, 67.0, 20.0)
     gender = st.sidebar.radio('Gender', ('Male', 'Female'))
     hypertension = st.sidebar.radio('Hypertension', ('Yes', 'No'))
