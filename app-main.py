@@ -100,7 +100,7 @@ if tabs == 'Learn about Stroke':
 elif tabs == 'Have a checkup':
     # Data Preprocessing
     stroke_dataset = stroke_dataset.drop_duplicates()
-    #stroke_dataset.drop(['id'],axis=1,inplace = True)
+    stroke_dataset.drop(['id'],axis=1,inplace = True)
     stroke_dataset.dropna(inplace=True)
     stroke_dataset = stroke_dataset[stroke_dataset['gender'] != 'Other']
     stroke_dataset.reset_index(drop=True, inplace=True)
